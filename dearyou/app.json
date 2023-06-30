@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "dearyou-app",
-    "slug": "dearyou-app",
+    "name": "dearyou",
+    "slug": "dearyou",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,23 +15,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.jhyunwoo.dearyouapp"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.jhyunwoo.dearyouapp"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "039431bf-3d2d-4f08-8bf8-20530a2579fd"
-      }
     }
   }
 }
